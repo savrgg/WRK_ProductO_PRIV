@@ -1,6 +1,5 @@
 indice
 kanban
-results
 etimología-y-origen
 japanese-tps-system
 las-3-ms
