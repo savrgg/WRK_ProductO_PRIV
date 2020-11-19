@@ -1,6 +1,10 @@
 # Kanban
 
-## Etimología y Origen
+## Introducción
+
+Es un sistema de scheduleo para **lean manunfactoring** y **Just in time manufacturing (JIT)**. Taiichi Ohno desarrollo kanban para mejorar la eficiencia manufacturera y se vuelve un método para alcanzar JIT. Uno de los principales beneficios de kanban es establecer un limite superior a **Work in Progress (WiP)** inventario para evitar sobrecapacidad. Existen otros sistemas como CONWIP. La meta de Kanban desde este punto de vista es limitar el exceso de inventario a cualquier punto de producción. 
+
+### Etimología y Origen
 
 La etimología (del japonés) tarjeta o señal y (del chino) señal o tablero. Está diseñado por David J. Anderson para la gestión del flujo de trabajo, basado en los sistemas **Lean Manunfacturing** a los que dio pie el trabajo de Toyota.
 
@@ -8,14 +12,28 @@ La etimología (del japonés) tarjeta o señal y (del chino) señal o tablero. E
 
 - Se evita la *Práctica push* de fabricar productos e intentar venderlos.
 
-## Japanese TPS System
+## Toyota Production System (TPS)
 
-También conocido como **Toyota Production System (TPS) es un método** para gestionar el trabajo que surgió a finales de los 40. Visualmente la podemos esquematizar como una casa compuesta de o la *Toyota Production System House* que se compone de la meta, los pilares, las bases y los cimientos:
+### Intro
+
+Es un sistema socio-técnico que se desarrollo en Toyota que comprende una filosofía de gerencia y de prácticas. Es un sistema de gerencia que organiza manufactura y logistica para automotriz, incluyendo interacción con proveedores y consumidores. Es un precursor del más genérico **lean manufacturing** de Taiichi Ohno y Eiji Toyoda. Originalmente fue llamado **Just in Time production**. Los principios que sostienen el TPS están englobados en **The Toyota Way**
+
+### The Toyota Way
+
+Consiste en dos áeas: **Mejora continua** y **Respeto por las personas**. En total engloba 14 principios divididos en 4 secciones:
+
+- Filosofía a Largo Plazo
+- El proceso correcto producirá los resultados correctos
+- Añadir valor a la organización desarrollando a tus personas
+- Continuamente resolver problemas de raiz lleva a un aprendizaje organizacional
+
+### Toyota Production System House
+
+Visualmente la podemos esquematizar como una casa compuesta de o la *Toyota Production System House* que se compone de la meta, los pilares, las bases y los cimientos:
 
 <center>
 ![Toyota Production Sysstem House (Lean Enterprise Institute)](./imgs/01_TPS_house.png){#id .class width=600 height=500px}
 </center>
-
 
 **- Meta:** La mejor calidad, el menor costo y corto tiempo de entrega. 
 
@@ -157,15 +175,35 @@ Se pueden dividir en *tres principios de gestión del cambio (GC)* y *tres princ
 - (PS) Administra el trabajo, que la gente se auto-organice
 - (PS) Organización es un ecosistema de servicios independientes, guiados por políticas
 
+### Prácticas Kanban
 
+- **Visualizar:** Representa un sistema de flujo en el que los elementos de trabajo fluyen a través de las distintas etapas de un proceso. 
+- **Limitar el WiP:** Se consigue con la implementación de sistemas pull en los que el enfoque principal es la generación de unidades terminadas y no la acumulación de unidades en progreso.
+- **Gestión del flujo de trabajo:** Una de las claves para maximizar el flujo de valor es conocer el coste de retraso de los elementos de trabajo. Esto es, la cantidad de valor del elemento que se pierde debido al retraso de la implementación durante un periodo de tiempo. 
+- **Hacer explicitas las políticas:** Las políticas del proceso deben ser escasas, simples, estar bien definidas, visibles, deben aplicarse siempre y tienen que ser facilmente modificables por los que proporcionan el servicio
 
-
-
-
-
-### Prácticas Kanban:
-
+- **Circuitos de retroalimentación:**
 ### Herramientas Kanban:
+
+
+### Diferencia con Scrum
+
+
+## Kanban board
+
+Kanban board se puede dividir en 5 componentes: Señales Visuales, Columnas, Work-in-progress limites, puntos de compromiso, y punto de entrega. 
+
+**- Visual Signals:** Las personas del equipo escriben proyectos y items de trabajo en tarjetas, usualmente una por tarjeta. Para equipos agiles, cada tarjeta puede encapsularse en una historia de usuario. 
+
+**- Columnas:** Se representan una actividad en especifico que juntas componen el "Workflow". El flujo de tarjetas hasta que se complete. Puede ser: *To Do*, *In progress*, *Complete* o mucho más completa. 
+
+**- WiPs limites:** Son el máximo numero de tarjetas que pueden haber en una columna. Cuando la columna se llena, el equipo necesita en conjunto moverlas antes que nuevas cartas entren al workflow. Es importante para exponer los cuellos de botella en el workflow y maximizar el flujo. 
+
+**-Punto de compromiso:** Los equipos de Kanban frecuentemente tienen un *backlog* del tablero. Esto es cuando los clientes y participantes del equipo ponen sus ideas para proyectos que el equipo puede tomar cuando se inicia el proyecto
+
+**-Punto de entrega:** El punto 
+
+
 
 
 
