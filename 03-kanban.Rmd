@@ -41,7 +41,7 @@ Visualmente la podemos esquematizar como una casa compuesta de o la *Toyota Prod
 
 - Just-In-Time (Justo a tiempo): Producir sólo lo necesario, en el momento justo, en la cantidad necesaria, con lo mínimo necesario.
 
-  - Continuous flow 1x1
+  - Continuous flow
   
   - Takt Time
   

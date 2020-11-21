@@ -1,0 +1,54 @@
+# Fundamentos de agilidad
+
+## Entorno V.U.C.A.
+
+V.U.C.A. Acrónimo de Volatilidad, Incertidumbre, Complejidad y Ambigüedad
+
+¿Qué es la agilidad?
+
+Es la capacidad de una empresa o equipo de innovar y adaptarse rápidamente y lo mejor posible a los cambios de mercado, contestar en poco tiempo, con flexibilidad y constancia a las peticiones de los clientes, además de liderar el cambio de manera  productiva y rentable sin disminuir la calidad a fin de mejorar la experiencia del cliente. 
+
+## 4 Valores Agile
+- Individuos y sus interacciones sobre procesos y herramientas
+- Software funcionando sobre documentación exhaustiva
+- Colaboración con el cliente sobre negociación contractual
+- Responder al cambio sobre seguir un plan
+
+<center>
+![https://viewnext.usal.es/](./imgs/P01_4valores.png){#id .class width=400 height=450px}
+</center>
+## 12 Principios agile
+1. Nuestra mayor prioridad es satisfacer al cliente
+2. Aceptar que los requisitos cambien
+3. Entregar software fucnional frecuentemente
+4. Los responsables de negocios, diseñadores y desarrolladores deben trabajar juntos dia a dia durante el proyecto
+5. Desarrollamos proyectos en torno a individuos motivados
+6. El método más eficiente de comunicar información es conversación cara a cara
+7. El software funcionando es la principal medida de éxito
+8. Los procesos ágiles promueven el desarrollo sostenible
+9. La atención continua a la excelencia técnica y al buen diseño mejora la agilidad
+10. La simplicidad es esencial
+11. Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados
+12. A intervalos regulares el equipo reflexiona sobre como ser más efectivo y de acuerdo a esto ajustan su comportamiento
+
+<center>
+![https://asd-tech.mx/](./imgs/P01_12_principios.jpg){#id .class width=300 height=600px}
+</center>
+
+
+
+## Prácticas agile
+- Scrum
+- ScrumBan
+- Hybrid Methodology
+- Scrum/XP Hybrid
+- Kanban
+- Iterative development
+
+## Mitos comunes
+- Una solución mágica
+- Agil = Hazlo ya
+- No requiere documentación
+
+
+

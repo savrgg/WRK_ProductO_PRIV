@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Chapter 2 Fundamentos de agilidad | Diplomado PO</title>
+  <meta name="description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Chapter 2 Fundamentos de agilidad | Diplomado PO" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
+  <meta name="github-repo" content="rstudio/bookdown-demo" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Chapter 2 Fundamentos de agilidad | Diplomado PO" />
+  
+  <meta name="twitter:description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
+  
+
+<meta name="author" content="Salvador Garcia" />
+
+
+<meta name="date" content="2020-11-20" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="index.html"/>
+<link rel="next" href="kanban.html"/>
+<script src="libs/header-attrs-2.5/header-attrs.js"></script>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<link href="libs/anchor-sections-1.0/anchor-sections.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.0/anchor-sections.js"></script>
+
+
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">A Minimal Book Example</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i><b>1</b> Indice</a></li>
+<li class="chapter" data-level="2" data-path="fundamentos-de-agilidad.html"><a href="fundamentos-de-agilidad.html"><i class="fa fa-check"></i><b>2</b> Fundamentos de agilidad</a>
+<ul>
+<li class="chapter" data-level="2.1" data-path="fundamentos-de-agilidad.html"><a href="fundamentos-de-agilidad.html#entorno-v.u.c.a."><i class="fa fa-check"></i><b>2.1</b> Entorno V.U.C.A.</a></li>
+<li class="chapter" data-level="2.2" data-path="fundamentos-de-agilidad.html"><a href="fundamentos-de-agilidad.html#valores-agile"><i class="fa fa-check"></i><b>2.2</b> 4 Valores Agile</a></li>
+<li class="chapter" data-level="2.3" data-path="fundamentos-de-agilidad.html"><a href="fundamentos-de-agilidad.html#principios-agile"><i class="fa fa-check"></i><b>2.3</b> 12 Principios agile</a></li>
+<li class="chapter" data-level="2.4" data-path="fundamentos-de-agilidad.html"><a href="fundamentos-de-agilidad.html#prácticas-agile"><i class="fa fa-check"></i><b>2.4</b> Prácticas agile</a></li>
+<li class="chapter" data-level="2.5" data-path="fundamentos-de-agilidad.html"><a href="fundamentos-de-agilidad.html#mitos-comunes"><i class="fa fa-check"></i><b>2.5</b> Mitos comunes</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="kanban.html"><a href="kanban.html"><i class="fa fa-check"></i><b>3</b> Kanban</a>
+<ul>
+<li class="chapter" data-level="3.1" data-path="kanban.html"><a href="kanban.html#introducción"><i class="fa fa-check"></i><b>3.1</b> Introducción</a>
+<ul>
+<li class="chapter" data-level="3.1.1" data-path="kanban.html"><a href="kanban.html#etimología-y-origen"><i class="fa fa-check"></i><b>3.1.1</b> Etimología y Origen</a></li>
+</ul></li>
+<li class="chapter" data-level="3.2" data-path="kanban.html"><a href="kanban.html#toyota-production-system-tps"><i class="fa fa-check"></i><b>3.2</b> Toyota Production System (TPS)</a>
+<ul>
+<li class="chapter" data-level="3.2.1" data-path="kanban.html"><a href="kanban.html#intro"><i class="fa fa-check"></i><b>3.2.1</b> Intro</a></li>
+<li class="chapter" data-level="3.2.2" data-path="kanban.html"><a href="kanban.html#the-toyota-way"><i class="fa fa-check"></i><b>3.2.2</b> The Toyota Way</a></li>
+<li class="chapter" data-level="3.2.3" data-path="kanban.html"><a href="kanban.html#toyota-production-system-house"><i class="fa fa-check"></i><b>3.2.3</b> Toyota Production System House</a></li>
+</ul></li>
+<li class="chapter" data-level="3.3" data-path="kanban.html"><a href="kanban.html#las-3-ms"><i class="fa fa-check"></i><b>3.3</b> Las 3 M’s</a>
+<ul>
+<li class="chapter" data-level="3.3.1" data-path="kanban.html"><a href="kanban.html#muda"><i class="fa fa-check"></i><b>3.3.1</b> MUDA</a></li>
+<li class="chapter" data-level="3.3.2" data-path="kanban.html"><a href="kanban.html#mura"><i class="fa fa-check"></i><b>3.3.2</b> MURA</a></li>
+<li class="chapter" data-level="3.3.3" data-path="kanban.html"><a href="kanban.html#muri"><i class="fa fa-check"></i><b>3.3.3</b> MURI</a></li>
+</ul></li>
+<li class="chapter" data-level="3.4" data-path="kanban.html"><a href="kanban.html#kanban-1"><i class="fa fa-check"></i><b>3.4</b> Kanban</a>
+<ul>
+<li class="chapter" data-level="3.4.1" data-path="kanban.html"><a href="kanban.html#valores-kanban"><i class="fa fa-check"></i><b>3.4.1</b> 9 Valores Kanban:</a></li>
+<li class="chapter" data-level="3.4.2" data-path="kanban.html"><a href="kanban.html#principios-directores-kanban"><i class="fa fa-check"></i><b>3.4.2</b> 3 Principios directores Kanban:</a></li>
+<li class="chapter" data-level="3.4.3" data-path="kanban.html"><a href="kanban.html#principios-fundacionales-kanban"><i class="fa fa-check"></i><b>3.4.3</b> 6 Principios fundacionales Kanban:</a></li>
+<li class="chapter" data-level="3.4.4" data-path="kanban.html"><a href="kanban.html#prácticas-kanban"><i class="fa fa-check"></i><b>3.4.4</b> Prácticas Kanban</a></li>
+<li class="chapter" data-level="3.4.5" data-path="kanban.html"><a href="kanban.html#herramientas-kanban"><i class="fa fa-check"></i><b>3.4.5</b> Herramientas Kanban:</a></li>
+<li class="chapter" data-level="3.4.6" data-path="kanban.html"><a href="kanban.html#diferencia-con-scrum"><i class="fa fa-check"></i><b>3.4.6</b> Diferencia con Scrum</a></li>
+</ul></li>
+<li class="chapter" data-level="3.5" data-path="kanban.html"><a href="kanban.html#kanban-board"><i class="fa fa-check"></i><b>3.5</b> Kanban board</a></li>
+</ul></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Diplomado PO</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="fundamentos-de-agilidad" class="section level1" number="2">
+<h1><span class="header-section-number">Chapter 2</span> Fundamentos de agilidad</h1>
+<div id="entorno-v.u.c.a." class="section level2" number="2.1">
+<h2><span class="header-section-number">2.1</span> Entorno V.U.C.A.</h2>
+<p>V.U.C.A. Acrónimo de Volatilidad, Incertidumbre, Complejidad y Ambigüedad</p>
+<p>¿Qué es la agilidad?</p>
+<p>Es la capacidad de una empresa o equipo de innovar y adaptarse rápidamente y lo mejor posible a los cambios de mercado, contestar en poco tiempo, con flexibilidad y constancia a las peticiones de los clientes, además de liderar el cambio de manera productiva y rentable sin disminuir la calidad a fin de mejorar la experiencia del cliente.</p>
+</div>
+<div id="valores-agile" class="section level2" number="2.2">
+<h2><span class="header-section-number">2.2</span> 4 Valores Agile</h2>
+<ul>
+<li>Individuos y sus interacciones sobre procesos y herramientas</li>
+<li>Software funcionando sobre documentación exhaustiva</li>
+<li>Colaboración con el cliente sobre negociación contractual</li>
+<li>Responder al cambio sobre seguir un plan</li>
+</ul>
+<center>
+<img src="imgs/P01_4valores.png" title="fig:" id="id" class="class" width="400" height="450" alt="https://viewnext.usal.es/" />
+</center>
+</div>
+<div id="principios-agile" class="section level2" number="2.3">
+<h2><span class="header-section-number">2.3</span> 12 Principios agile</h2>
+<ol style="list-style-type: decimal">
+<li>Nuestra mayor prioridad es satisfacer al cliente</li>
+<li>Aceptar que los requisitos cambien</li>
+<li>Entregar software fucnional frecuentemente</li>
+<li>Los responsables de negocios, diseñadores y desarrolladores deben trabajar juntos dia a dia durante el proyecto</li>
+<li>Desarrollamos proyectos en torno a individuos motivados</li>
+<li>El método más eficiente de comunicar información es conversación cara a cara</li>
+<li>El software funcionando es la principal medida de éxito</li>
+<li>Los procesos ágiles promueven el desarrollo sostenible</li>
+<li>La atención continua a la excelencia técnica y al buen diseño mejora la agilidad</li>
+<li>La simplicidad es esencial</li>
+<li>Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados</li>
+<li>A intervalos regulares el equipo reflexiona sobre como ser más efectivo y de acuerdo a esto ajustan su comportamiento</li>
+</ol>
+<center>
+<img src="imgs/P01_12_principios.jpg" title="fig:" id="id" class="class" width="300" height="600" alt="https://asd-tech.mx/" />
+</center>
+</div>
+<div id="prácticas-agile" class="section level2" number="2.4">
+<h2><span class="header-section-number">2.4</span> Prácticas agile</h2>
+<ul>
+<li>Scrum</li>
+<li>ScrumBan</li>
+<li>Hybrid Methodology</li>
+<li>Scrum/XP Hybrid</li>
+<li>Kanban</li>
+<li>Iterative development</li>
+</ul>
+</div>
+<div id="mitos-comunes" class="section level2" number="2.5">
+<h2><span class="header-section-number">2.5</span> Mitos comunes</h2>
+<ul>
+<li>Una solución mágica</li>
+<li>Agil = Hazlo ya</li>
+<li>No requiere documentación</li>
+</ul>
+
+</div>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="kanban.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-fundamentos-agilidad.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["bookdown-demo.pdf", "bookdown-demo.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+</body>
+
+</html>
