@@ -30,3 +30,8 @@ flujo-scrum
 principios-de-scrum-6
 aspectos-de-scrum-5
 procesos-de-scrum-19
+introducción-y-sbok
+fases
+historia-de-scrum
+beneficios-de-scrum
+introducción-1
