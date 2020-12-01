@@ -34,3 +34,13 @@ principios-fundacionales-kanban
 prácticas-kanban
 diferencia-con-scrum
 kanban-board
+herramientas-kanban
+kanban-2
+scrum-a-alto-nivel
+roles
+eventos
+artefactos
+competencias-del-product-owner
+product-owner-norma-hernández
+responsabilidades-de-product-owner
+areas-de-dominio-del-po
