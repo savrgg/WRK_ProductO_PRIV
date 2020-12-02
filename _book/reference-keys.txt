@@ -44,3 +44,5 @@ competencias-del-product-owner
 product-owner-norma-hernández
 responsabilidades-de-product-owner
 areas-de-dominio-del-po
+po-crack
+componentes

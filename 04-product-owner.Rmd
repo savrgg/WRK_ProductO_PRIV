@@ -75,6 +75,11 @@ Cuarto Círculo:
 4) **C**omprometido
 5) **K**nowledge (Adquiere conocimiento de tu área permanentemente)
 
+#### Componentes
+
+<center>
+![Componentes](./imgs/P04_componentes.png){#id .class width=600 height=400px}
+</center>
 
 ### 5-Eventos
 1. **Sprint** es en contenedor de los demás eventos (Sprint de dos semanas)
