@@ -8,11 +8,6 @@ bookdown::gitbook:
         <li><a href="./">Diplomado Product Owner</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
-    edit: https://github.com/savrgg/po_gs_priv/edit/main/%s
-    download: ["pdf"]
-   toolbar:
-      position: fixed
-    search: yes
 bookdown::pdf_book:
   includes:
     in_header: preamble.tex

@@ -59,4 +59,3 @@ primer-team-break-out
 segundo-team-break-out
 tercer-team-break-out
 demo-magic
-herramientas-kanban

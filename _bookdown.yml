@@ -1,8 +1,5 @@
 book_filename: "Diplomado - PO"
 language:
-  label:
-    fig: "FIGURA "
-    tab: "TABLA "
   ui:
     chapter_name: "CAPITULO "
 delete_merged_file: true
