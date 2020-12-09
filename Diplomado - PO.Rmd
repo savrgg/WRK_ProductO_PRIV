@@ -1,3 +1,114 @@
+--- 
+title: "Diplomado PO"
+author: "Salvador Garcia"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Notas personales del diplomado PO impartido por Agiles Azteca"
+---
+--- 
+title: "Diplomado PO"
+author: "Salvador Garcia"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::gitbook
+documentclass: book
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+github-repo: rstudio/bookdown-demo
+description: "Notas personales del diplomado PO impartido por Agiles Azteca"
+---
+
+# Indice
+
+Esto es una prueba de documentacion
+
+<!--chapter:end:index.Rmd-->
+
+
+# Fundamentos de agilidad
+
+Placeholder
+
+
+## Entorno V.U.C.A.
+## 4 Valores Agile
+## 12 Principios agile
+## Prácticas agile
+## Mitos comunes
+
+<!--chapter:end:01-fundamentos-agilidad.Rmd-->
+
+
+# Fundamentos scrum
+
+Placeholder
+
+
+## Introducción y SBOK
+### Introducción
+### Historia de SCRUM
+## Beneficios de SCRUM
+## Marco de trabajo
+### Flujo Scrum 
+### Principios de Scrum (6)
+### Aspectos de Scrum (5)
+### Procesos de Scrum (19)
+#### 5 fases
+
+<!--chapter:end:02-fundamentos-scrum.Rmd-->
+
+
+# Kanban
+
+Placeholder
+
+
+## Introducción
+### Etimología y Origen
+## Toyota Production System (TPS)
+### Intro
+### The Toyota Way
+### Toyota Production System House
+## Las 3 M's
+### MUDA
+### MURA
+### MURI
+## Kanban
+### 9 Valores Kanban:
+### 3 Principios directores Kanban:
+### 6 Principios fundacionales Kanban:
+### Prácticas Kanban
+### Herramientas Kanban:
+### Diferencia con Scrum
+## Kanban board
+
+<!--chapter:end:03-kanban.Rmd-->
+
+
+# Product Owner
+
+Placeholder
+
+
+## Scrum a alto nivel
+### 3 Roles
+#### Competencias del Product Owner
+#### Responsabilidades de Product Owner
+#### Areas de Dominio del PO
+#### PO Crack
+#### Componentes
+### 5-Eventos
+### 3-Artefactos
+
+<!--chapter:end:04-product-owner.Rmd-->
+
 # Demo & PI 
 
 ## Safe 5.0
@@ -176,4 +287,7 @@ Verde: Épica
 La Demo es un evento donde se comparten los resultados de los esfuerzos de desarrollo y se hacen visibles para los clientes y otras partes interesadas, representa un punto de aprendizaje significativo, convirtiendo cierta incertidumbre en el desarrollo de productos en conocimiento. Los resultados de esta demostración determinan el curso de acción futuro para la inversión en la cartera.
 
 Durante la Demo, los equipos de desarrollo demuestran las nuevas capacidades de las soluciones proporcionando información esencial para las decisiones de inversión a corto plazo en el flujo de valor a nivel de cartera. Como única medida tangible de progreso, mitiga el riesgo de inversión.
+
+
+<!--chapter:end:05-Demo-and-PI.Rmd-->
 

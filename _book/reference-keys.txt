@@ -34,7 +34,7 @@ principios-fundacionales-kanban
 prácticas-kanban
 diferencia-con-scrum
 kanban-board
-product-owner-norma-hernández
+product-owner
 scrum-a-alto-nivel
 roles
 competencias-del-product-owner
@@ -44,7 +44,7 @@ po-crack
 componentes
 eventos
 artefactos
-product-owner-norma-hernández-1
+demo-pi
 safe-5.0
 flujo-agil-en-gs
 planificación-trimestral-pi

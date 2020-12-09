@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>CAPITULO 2 Fundamentos de agilidad | Diplomado PO</title>
+  <title>CAPITULO 6 Demo &amp; PI | Diplomado PO</title>
   <meta name="description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="CAPITULO 2 Fundamentos de agilidad | Diplomado PO" />
+  <meta property="og:title" content="CAPITULO 6 Demo &amp; PI | Diplomado PO" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="CAPITULO 2 Fundamentos de agilidad | Diplomado PO" />
+  <meta name="twitter:title" content="CAPITULO 6 Demo &amp; PI | Diplomado PO" />
   
   <meta name="twitter:description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="fundamentos-scrum.html"/>
+<link rel="prev" href="product-owner.html"/>
+
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -184,7 +184,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="4.4.2" data-path="kanban.html"><a href="kanban.html#principios-directores-kanban"><i class="fa fa-check"></i><b>4.4.2</b> 3 Principios directores Kanban:</a></li>
 <li class="chapter" data-level="4.4.3" data-path="kanban.html"><a href="kanban.html#principios-fundacionales-kanban"><i class="fa fa-check"></i><b>4.4.3</b> 6 Principios fundacionales Kanban:</a></li>
 <li class="chapter" data-level="4.4.4" data-path="kanban.html"><a href="kanban.html#prácticas-kanban"><i class="fa fa-check"></i><b>4.4.4</b> Prácticas Kanban</a></li>
-<li class="chapter" data-level="4.4.5" data-path="kanban.html"><a href="kanban.html#diferencia-con-scrum"><i class="fa fa-check"></i><b>4.4.5</b> Diferencia con Scrum</a></li>
+<li class="chapter" data-level="4.4.5" data-path="kanban.html"><a href="kanban.html#herramientas-kanban"><i class="fa fa-check"></i><b>4.4.5</b> Herramientas Kanban:</a></li>
+<li class="chapter" data-level="4.4.6" data-path="kanban.html"><a href="kanban.html#diferencia-con-scrum"><i class="fa fa-check"></i><b>4.4.6</b> Diferencia con Scrum</a></li>
 </ul></li>
 <li class="chapter" data-level="4.5" data-path="kanban.html"><a href="kanban.html#kanban-board"><i class="fa fa-check"></i><b>4.5</b> Kanban board</a></li>
 </ul></li>
@@ -240,64 +241,233 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="fundamentos-de-agilidad" class="section level1" number="2">
-<h1><span class="header-section-number">CAPITULO 2</span> Fundamentos de agilidad</h1>
-<div id="entorno-v.u.c.a." class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Entorno V.U.C.A.</h2>
-<p>V.U.C.A. Acrónimo de Volatilidad, Incertidumbre, Complejidad y Ambigüedad</p>
-<p>¿Qué es la agilidad?</p>
-<p>Es la capacidad de una empresa o equipo de innovar y adaptarse rápidamente y lo mejor posible a los cambios de mercado, contestar en poco tiempo, con flexibilidad y constancia a las peticiones de los clientes, además de liderar el cambio de manera productiva y rentable sin disminuir la calidad a fin de mejorar la experiencia del cliente.</p>
-</div>
-<div id="valores-agile" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> 4 Valores Agile</h2>
-<ul>
-<li>Individuos y sus interacciones sobre procesos y herramientas</li>
-<li>Software funcionando sobre documentación exhaustiva</li>
-<li>Colaboración con el cliente sobre negociación contractual</li>
-<li>Responder al cambio sobre seguir un plan</li>
-</ul>
+<div id="demo-pi" class="section level1" number="6">
+<h1><span class="header-section-number">CAPITULO 6</span> Demo &amp; PI</h1>
+<div id="safe-5.0" class="section level2" number="6.1">
+<h2><span class="header-section-number">6.1</span> Safe 5.0</h2>
+<p>Scaled Agile Framework es una base de conocimientos, probados e integrados para lograr la agilidad del negocio mediante prácticas y competencias Agiles y Devops. Safe y Scrum funcionan para los valores y principios agiles.</p>
+<p>Scrum: es un framework que esta basado en los valores y principios ágiles
+Safe: es un framework que implementa Scrum a un nivel empresarial</p>
+<p>Diferencias entre Scrum / Safe</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="demo-pi.html#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(knitr)</span>
+<span id="cb1-2"><a href="demo-pi.html#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="fu">kable</span>(</span>
+<span id="cb1-3"><a href="demo-pi.html#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="fu">data.frame</span>(</span>
+<span id="cb1-4"><a href="demo-pi.html#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="at">Diferencia =</span> <span class="fu">c</span>(<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>),</span>
+<span id="cb1-5"><a href="demo-pi.html#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="at">Scrum =</span> <span class="fu">c</span>(<span class="st">&quot;Se encarga de acuerdos entre equipos pequeños y cross funcionales&quot;</span>, <span class="st">&quot;Es adoptado por los equipos agiles&quot;</span>, <span class="st">&quot;La gerencia media no juega rol&quot;</span>, <span class="st">&quot;La estructura básica es el equipo Scrum&quot;</span>, <span class="st">&quot;Scrum omite varios aspectos esenciales&quot;</span>),</span>
+<span id="cb1-6"><a href="demo-pi.html#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="at">Safe =</span> <span class="fu">c</span>(<span class="st">&quot;Se encarga de equipos grandes y multigeográficos&quot;</span>, <span class="st">&quot;Adoptados por empresas completas, no solo por el equipo Scrum&quot;</span>, <span class="st">&quot;Program y Portfolio management son dos figuras importantes de Safe&quot;</span>, <span class="st">&quot;La estructura básica es el ART (Agile Release Train)&quot;</span>, <span class="st">&quot;Con Safe todas las caracteristicas y aspectos de una organización pueden ser gestionados&quot;</span>)</span>
+<span id="cb1-7"><a href="demo-pi.html#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb1-8"><a href="demo-pi.html#cb1-8" aria-hidden="true" tabindex="-1"></a>)</span></code></pre></div>
+<table>
+<colgroup>
+<col width="6%" />
+<col width="39%" />
+<col width="53%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th align="right">Diferencia</th>
+<th align="left">Scrum</th>
+<th align="left">Safe</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td align="right">1</td>
+<td align="left">Se encarga de acuerdos entre equipos pequeños y cross funcionales</td>
+<td align="left">Se encarga de equipos grandes y multigeográficos</td>
+</tr>
+<tr class="even">
+<td align="right">2</td>
+<td align="left">Es adoptado por los equipos agiles</td>
+<td align="left">Adoptados por empresas completas, no solo por el equipo Scrum</td>
+</tr>
+<tr class="odd">
+<td align="right">3</td>
+<td align="left">La gerencia media no juega rol</td>
+<td align="left">Program y Portfolio management son dos figuras importantes de Safe</td>
+</tr>
+<tr class="even">
+<td align="right">4</td>
+<td align="left">La estructura básica es el equipo Scrum</td>
+<td align="left">La estructura básica es el ART (Agile Release Train)</td>
+</tr>
+<tr class="odd">
+<td align="right">5</td>
+<td align="left">Scrum omite varios aspectos esenciales</td>
+<td align="left">Con Safe todas las caracteristicas y aspectos de una organización pueden ser gestionados</td>
+</tr>
+</tbody>
+</table>
 <center>
-<img src="imgs/P01_4valores.png" title="fig:" id="id" class="class" width="400" height="450" alt="https://viewnext.usal.es/" />
+<img src="imgs/P05_safe.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
 </center>
 </div>
-<div id="principios-agile" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> 12 Principios agile</h2>
+<div id="flujo-agil-en-gs" class="section level2" number="6.2">
+<h2><span class="header-section-number">6.2</span> Flujo agil en GS</h2>
+<div id="planificación-trimestral-pi" class="section level3" number="6.2.1">
+<h3><span class="header-section-number">6.2.1</span> Planificación Trimestral (PI)</h3>
+<p>Es un evento al que asisten todos los interesados, colaboradores y equipos que participarán en la toma de decisiones y construcción de productos y servicios.</p>
+<p>Los equipos planifican los objetivos definidos y priorizados por la capa directiva que se trabajarán en el próximo trimestre. El PI permite una alineación y compromiso de los equipos participantes. <em>Permite una alineación y compromiso de los equipos participantes</em>.</p>
+</div>
+<div id="beneficios" class="section level3" number="6.2.2">
+<h3><span class="header-section-number">6.2.2</span> Beneficios:</h3>
 <ol style="list-style-type: decimal">
-<li>Nuestra mayor prioridad es satisfacer al cliente</li>
-<li>Aceptar que los requisitos cambien</li>
-<li>Entregar software fucnional frecuentemente</li>
-<li>Los responsables de negocios, diseñadores y desarrolladores deben trabajar juntos dia a dia durante el proyecto</li>
-<li>Desarrollamos proyectos en torno a individuos motivados</li>
-<li>El método más eficiente de comunicar información es conversación cara a cara</li>
-<li>El software funcionando es la principal medida de éxito</li>
-<li>Los procesos ágiles promueven el desarrollo sostenible</li>
-<li>La atención continua a la excelencia técnica y al buen diseño mejora la agilidad</li>
-<li>La simplicidad es esencial</li>
-<li>Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados</li>
-<li>A intervalos regulares el equipo reflexiona sobre como ser más efectivo y de acuerdo a esto ajustan su comportamiento</li>
+<li>Establecer la comunicación cara a cara entre todos los miembros del equipo y las partes interesadas. Se puede ligar con un principio Agil: La mejor manera de establecer comunicación entre los equipos es por medio de la comunicación cara a cara.</li>
+<li>Construir la conversación de la que depende el portafolio</li>
+<li>Alinear el desarrollo a los objetivos comerciales con el contexto empresarial, la visión y los objetivos del PI del equipo y del programa</li>
+<li>Identificar dependencias y fomentar la colaboración entre los equipos y otros equipos de otras áreas</li>
+<li>Brindar la oportunidad de “la cantidad justa” de arquitectura y orientación de experiencia de usuario</li>
+<li>Adecuación de la demanda a la capacidad, eliminando el exceso de trabajo en proceso (WIP)</li>
+<li>Toma de decisiones rápida</li>
+<li>Validar la viabilidad con todas las áreas involucradas</li>
 </ol>
+</div>
+<div id="cultura-empresarial" class="section level3" number="6.2.3">
+<h3><span class="header-section-number">6.2.3</span> Cultura empresarial</h3>
+<p>Colaboración, Transparencia, Inspección, Adaptación, Mejora continua, Valor al cliente.</p>
+<p>El proceso de transformación de Grupo Salinas conlleva una adopción de una nueva cultura empresarial con nuevas formas de trabajo apoyado en las filosofias Agile.</p>
+</div>
+<div id="flujo-agil-en-gs-1" class="section level3" number="6.2.4">
+<h3><span class="header-section-number">6.2.4</span> Flujo agil en GS</h3>
+<ol style="list-style-type: decimal">
+<li>Propuesta y priorización de iniciativas</li>
+</ol>
+<ul>
+<li>Propuesta de iniciativas</li>
+<li>Priorización</li>
+<li>Asegurarse estén alineadas a los ORCs</li>
+<li>Verificar factibilidad, viabilidad y deseabilidad</li>
+<li>Se recomienda llevar un portafolio de iniciativas por Unidad de Negocios</li>
+</ul>
+<ol start="2" style="list-style-type: decimal">
+<li>Dimensionamiento</li>
+</ol>
+<ul>
+<li>Definición de alcance a alto nivel por iniciativa</li>
+</ul>
+<ol start="3" style="list-style-type: decimal">
+<li>Inception</li>
+</ol>
+<ul>
+<li>Obtención colaborativa de Epicas e historias de usuario (Backlog del producto) a partir de iniciativa e identificar el MVP</li>
+</ul>
+<ol start="4" style="list-style-type: decimal">
+<li>Feria de dependencias
+Identificación de áreas de dependencia</li>
+<li>PI</li>
+</ol>
+<ul>
+<li>Planificar las entregas de las HU</li>
+<li>Identificar riesgos y dependencias</li>
+<li>Negociar con el equipo en base a su capacidad</li>
+</ul>
+<ol start="6" style="list-style-type: decimal">
+<li>Ejecución de Sprints</li>
+</ol>
+<ul>
+<li>Asegurar sesiones de refinamiento con el fin de detallar DoR, DoD y CA de todas las HU</li>
+</ul>
+<ol start="7" style="list-style-type: decimal">
+<li>Demo</li>
+</ol>
+<ul>
+<li>Se muestra el incremento del programa</li>
+<li>Software funcionando</li>
+</ul>
 <center>
-<img src="imgs/P01_12_principios.jpg" title="fig:" id="id" class="class" width="300" height="600" alt="https://asd-tech.mx/" />
+<img src="imgs/P05_ruta.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
 </center>
 </div>
-<div id="prácticas-agile" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> Prácticas agile</h2>
-<ul>
-<li>Scrum</li>
-<li>ScrumBan</li>
-<li>Hybrid Methodology</li>
-<li>Scrum/XP Hybrid</li>
-<li>Kanban</li>
-<li>Iterative development</li>
-</ul>
 </div>
-<div id="mitos-comunes" class="section level2" number="2.5">
-<h2><span class="header-section-number">2.5</span> Mitos comunes</h2>
+<div id="antes-de-pi" class="section level2" number="6.3">
+<h2><span class="header-section-number">6.3</span> Antes de PI</h2>
+<p>En el PI planning no llegamos a nivel de tarea. En el planning de la primera iteración quedan definidas las tareas.</p>
+<center>
+<img src="imgs/P05_inception.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<div id="descomposición-funcional" class="section level3" number="6.3.1">
+<h3><span class="header-section-number">6.3.1</span> Descomposición funcional</h3>
+<center>
+<img src="imgs/P05_prepi.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+</div>
+</div>
+<div id="durante-el-pi" class="section level2" number="6.4">
+<h2><span class="header-section-number">6.4</span> Durante el PI</h2>
+<p>Como resultado se debe tener:</p>
+<ol style="list-style-type: decimal">
+<li>Un tablero por equipo que muestra las épicas a desarrollar</li>
+<li>Compromisos de las áreas de apoyo</li>
+<li>Productos / Servicios al final del trimestre</li>
+</ol>
+<div id="objetivo-de-negocio" class="section level3" number="6.4.1">
+<h3><span class="header-section-number">6.4.1</span> Objetivo de Negocio</h3>
+</div>
+<div id="primer-team-break-out" class="section level3" number="6.4.2">
+<h3><span class="header-section-number">6.4.2</span> Primer team break Out</h3>
 <ul>
-<li>Una solución mágica</li>
-<li>Agil = Hazlo ya</li>
-<li>No requiere documentación</li>
+<li>Desarrollo de boards (6 sprints, iteraciones)
+<ul>
+<li>Las épica deben estar priorizadas</li>
+<li>Distribuye las historias de usuario a través de todas las iteraciones</li>
+<li>Identificar que dependencias se tienen con alguna área por sprint</li>
+</ul></li>
 </ul>
+<center>
+<img src="imgs/P05_equipos.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<center>
+<img src="imgs/P05_equiposapoyo.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<p>Escriben sus épicas:
+- Es una caracteristica del producto enfocada a valor de negocio con un esfuerzo requerido que es menor a tres meses
+- Nombre de epica, no folio, prioridad de negocio, puntos de epica</p>
+<p>Historias de usuario:
+- Unidad de trabajo con un esfuerzo requerido menor a una iteración. Representacion de una necesidad, en un lenguaje común, colaborativo y conversacional.
+- Nombre de la historia de usuario, no folio, prioridad de historia de usuario, puntos de HU</p>
+<p>Dependencias:
+- Las dependencias se deben escribir por duplicado. Original: board del Team, Duplicado: Diagrama de dependencias</p>
+</div>
+<div id="segundo-team-break-out" class="section level3" number="6.4.3">
+<h3><span class="header-section-number">6.4.3</span> Segundo team break Out</h3>
+<ul>
+<li>Negociacion de dependencias</li>
+</ul>
+<center>
+<img src="imgs/P05_break2_1.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<center>
+<img src="imgs/P05_break2_2.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<center>
+<img src="imgs/P05_break2_3.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+</div>
+<div id="tercer-team-break-out" class="section level3" number="6.4.4">
+<h3><span class="header-section-number">6.4.4</span> Tercer team break Out</h3>
+<ul>
+<li>Matriz de Riesgos - plan de entregas y métricas</li>
+</ul>
+<center>
+<img src="imgs/P05_break3_1.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<center>
+<img src="imgs/P05_break3_2.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<p>Resultados:
+- Un tablero por equipo que muestra las épicas a desarrollar en el PI
+- Compromisos de áreas de apoyo
+- Productos / servicios al final</p>
+<p>Colores:
+Amarillo: Historia de usuario
+Rosa: Dependencias
+Verde: Épica</p>
+</div>
+</div>
+<div id="demo-magic" class="section level2" number="6.5">
+<h2><span class="header-section-number">6.5</span> Demo Magic</h2>
+<p>La Demo es un evento donde se comparten los resultados de los esfuerzos de desarrollo y se hacen visibles para los clientes y otras partes interesadas, representa un punto de aprendizaje significativo, convirtiendo cierta incertidumbre en el desarrollo de productos en conocimiento. Los resultados de esta demostración determinan el curso de acción futuro para la inversión en la cartera.</p>
+<p>Durante la Demo, los equipos de desarrollo demuestran las nuevas capacidades de las soluciones proporcionando información esencial para las decisiones de inversión a corto plazo en el flujo de valor a nivel de cartera. Como única medida tangible de progreso, mitiga el riesgo de inversión.</p>
 
 </div>
 </div>
@@ -306,8 +476,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="fundamentos-scrum.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="product-owner.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -338,7 +508,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-fundamentos-agilidad.Rmd",
+"link": "https://github.com/savrgg/po_gs_priv/edit/main/05-Demo-and-PI.Rmd",
 "text": "Edit"
 },
 "history": {
@@ -349,9 +519,10 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["Diplomado - PO.pdf", "Diplomado - PO.epub"],
+"download": ["Diplomado - PO.pdf"],
 "toc": {
-"collapse": "section"
+"collapse": "section",
+"scroll_highlight": true
 }
 });
 });

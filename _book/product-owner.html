@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>CAPITULO 2 Fundamentos de agilidad | Diplomado PO</title>
+  <title>CAPITULO 5 Product Owner | Diplomado PO</title>
   <meta name="description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="CAPITULO 2 Fundamentos de agilidad | Diplomado PO" />
+  <meta property="og:title" content="CAPITULO 5 Product Owner | Diplomado PO" />
   <meta property="og:type" content="book" />
   
   
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="rstudio/bookdown-demo" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="CAPITULO 2 Fundamentos de agilidad | Diplomado PO" />
+  <meta name="twitter:title" content="CAPITULO 5 Product Owner | Diplomado PO" />
   
   <meta name="twitter:description" content="Notas personales del diplomado PO impartido por Agiles Azteca" />
   
@@ -31,8 +31,8 @@
   <meta name="apple-mobile-web-app-status-bar-style" content="black" />
   
   
-<link rel="prev" href="index.html"/>
-<link rel="next" href="fundamentos-scrum.html"/>
+<link rel="prev" href="kanban.html"/>
+<link rel="next" href="demo-pi.html"/>
 <script src="libs/header-attrs-2.5/header-attrs.js"></script>
 <script src="libs/jquery-2.2.3/jquery.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
@@ -240,65 +240,110 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="fundamentos-de-agilidad" class="section level1" number="2">
-<h1><span class="header-section-number">CAPITULO 2</span> Fundamentos de agilidad</h1>
-<div id="entorno-v.u.c.a." class="section level2" number="2.1">
-<h2><span class="header-section-number">2.1</span> Entorno V.U.C.A.</h2>
-<p>V.U.C.A. Acrónimo de Volatilidad, Incertidumbre, Complejidad y Ambigüedad</p>
-<p>¿Qué es la agilidad?</p>
-<p>Es la capacidad de una empresa o equipo de innovar y adaptarse rápidamente y lo mejor posible a los cambios de mercado, contestar en poco tiempo, con flexibilidad y constancia a las peticiones de los clientes, además de liderar el cambio de manera productiva y rentable sin disminuir la calidad a fin de mejorar la experiencia del cliente.</p>
-</div>
-<div id="valores-agile" class="section level2" number="2.2">
-<h2><span class="header-section-number">2.2</span> 4 Valores Agile</h2>
+<div id="product-owner" class="section level1" number="5">
+<h1><span class="header-section-number">CAPITULO 5</span> Product Owner</h1>
+<div id="scrum-a-alto-nivel" class="section level2" number="5.1">
+<h2><span class="header-section-number">5.1</span> Scrum a alto nivel</h2>
+<center>
+<img src="imgs/P04_overview.png" title="fig:" id="id" class="class" width="600" height="380" alt="Scrum a alto nivel" />
+</center>
+<div id="roles" class="section level3" number="5.1.1">
+<h3><span class="header-section-number">5.1.1</span> 3 Roles</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Product Owner</strong>:</li>
+<li><strong>Equipo de Desarrollo</strong></li>
+<li><strong>Scrum Master</strong></li>
+</ol>
+<div id="competencias-del-product-owner" class="section level4" number="5.1.1.1">
+<h4><span class="header-section-number">5.1.1.1</span> Competencias del Product Owner</h4>
 <ul>
-<li>Individuos y sus interacciones sobre procesos y herramientas</li>
-<li>Software funcionando sobre documentación exhaustiva</li>
-<li>Colaboración con el cliente sobre negociación contractual</li>
-<li>Responder al cambio sobre seguir un plan</li>
+<li>Conocimiento del negocio</li>
+<li>Excelentes habilidades de comunicación</li>
+<li>Habilidades de negociacion</li>
+<li>Proactivo</li>
+<li>Toma de decisiones</li>
+<li>Accesible</li>
+<li>Orientado a resultados</li>
+<li>Conocimiento de Scrum</li>
 </ul>
 <center>
-<img src="imgs/P01_4valores.png" title="fig:" id="id" class="class" width="400" height="450" alt="https://viewnext.usal.es/" />
+<img src="imgs/P04_habilidades.png" title="fig:" id="id" class="class" width="600" height="400" alt="Scrum a alto nivel" />
 </center>
 </div>
-<div id="principios-agile" class="section level2" number="2.3">
-<h2><span class="header-section-number">2.3</span> 12 Principios agile</h2>
+<div id="responsabilidades-de-product-owner" class="section level4" number="5.1.1.2">
+<h4><span class="header-section-number">5.1.1.2</span> Responsabilidades de Product Owner</h4>
 <ol style="list-style-type: decimal">
-<li>Nuestra mayor prioridad es satisfacer al cliente</li>
-<li>Aceptar que los requisitos cambien</li>
-<li>Entregar software fucnional frecuentemente</li>
-<li>Los responsables de negocios, diseñadores y desarrolladores deben trabajar juntos dia a dia durante el proyecto</li>
-<li>Desarrollamos proyectos en torno a individuos motivados</li>
-<li>El método más eficiente de comunicar información es conversación cara a cara</li>
-<li>El software funcionando es la principal medida de éxito</li>
-<li>Los procesos ágiles promueven el desarrollo sostenible</li>
-<li>La atención continua a la excelencia técnica y al buen diseño mejora la agilidad</li>
-<li>La simplicidad es esencial</li>
-<li>Las mejores arquitecturas, requisitos y diseños emergen de equipos auto-organizados</li>
-<li>A intervalos regulares el equipo reflexiona sobre como ser más efectivo y de acuerdo a esto ajustan su comportamiento</li>
+<li>Centrarse en la creación de valor</li>
+<li>Responsable de maximizar el ROI para el producto</li>
+<li>Definir junto con los stakeholders el alcance y la visión del producto</li>
+<li>Comunicar la visión del producto al equipo y a la organización</li>
+<li>Gestionar el tiempo, el alcance y el presupuesto ayudándose de la velocidad de los miembros del equipo</li>
+<li>Evaluar la viabilidad y garantizar la entrega del producto o servicio</li>
+<li>Representar al usuario o cliente y stakeholders y mantenerlos informados del progreso del prodcuto</li>
+<li>Ayudar en la elección del Scrum Master y los miembros del Development Team</li>
+<li>Crear, explicar y aprobar las historias de usuario</li>
+<li>Definir criterios de aceptación</li>
+<li>Llevar control del presupuesto gastado del producto/proyecto</li>
+<li>Dar feedback a las reuniones de revisión junto con los stakeholder</li>
+<li>Responsable de la administración del Backlog del producto (creación, refinamiento y priorización)</li>
+<li>Cancelar un sprint</li>
 </ol>
 <center>
-<img src="imgs/P01_12_principios.jpg" title="fig:" id="id" class="class" width="300" height="600" alt="https://asd-tech.mx/" />
+<img src="imgs/P04_responsabilidades.png" title="fig:" id="id" class="class" width="600" height="400" alt="Responsabilidades PO" />
 </center>
 </div>
-<div id="prácticas-agile" class="section level2" number="2.4">
-<h2><span class="header-section-number">2.4</span> Prácticas agile</h2>
-<ul>
-<li>Scrum</li>
-<li>ScrumBan</li>
-<li>Hybrid Methodology</li>
-<li>Scrum/XP Hybrid</li>
-<li>Kanban</li>
-<li>Iterative development</li>
-</ul>
+<div id="areas-de-dominio-del-po" class="section level4" number="5.1.1.3">
+<h4><span class="header-section-number">5.1.1.3</span> Areas de Dominio del PO</h4>
+<p>Primer Círculo:
+- Empirismo y autoorganizado</p>
+<p>Segundo Círculo:
+- Marco de trabajo de Scrum
+- Definición de
+- Meta de Sprint: Cada dos semanas tenemos una meta específica, alineada con la visión del producto que transmitimos al equipo</p>
+<p>Tercer Círculo:
+- Agile</p>
+<p>Cuarto Círculo:
+- Product Management</p>
+<center>
+<img src="imgs/P04_areas_dominio.png" title="fig:" id="id" class="class" width="600" height="400" alt="Areas de dominio" />
+</center>
 </div>
-<div id="mitos-comunes" class="section level2" number="2.5">
-<h2><span class="header-section-number">2.5</span> Mitos comunes</h2>
-<ul>
-<li>Una solución mágica</li>
-<li>Agil = Hazlo ya</li>
-<li>No requiere documentación</li>
-</ul>
+<div id="po-crack" class="section level4" number="5.1.1.4">
+<h4><span class="header-section-number">5.1.1.4</span> PO Crack</h4>
+<ol style="list-style-type: decimal">
+<li><strong>C</strong>olaborativo</li>
+<li><strong>R</strong>epresentativo</li>
+<li><strong>A</strong>utorizado</li>
+<li><strong>C</strong>omprometido</li>
+<li><strong>K</strong>nowledge (Adquiere conocimiento de tu área permanentemente)</li>
+</ol>
+</div>
+<div id="componentes" class="section level4" number="5.1.1.5">
+<h4><span class="header-section-number">5.1.1.5</span> Componentes</h4>
+<center>
+<img src="imgs/P04_componentes.png" title="fig:" id="id" class="class" width="600" height="400" alt="Componentes" />
+</center>
+</div>
+</div>
+<div id="eventos" class="section level3" number="5.1.2">
+<h3><span class="header-section-number">5.1.2</span> 5-Eventos</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Sprint</strong> es en contenedor de los demás eventos (Sprint de dos semanas)</li>
+<li><strong>Sprint Planning</strong></li>
+<li><strong>Sprint Review</strong></li>
+<li><strong>Sprint Retrospective</strong></li>
+<li><strong>Daily meeting</strong></li>
+</ol>
+</div>
+<div id="artefactos" class="section level3" number="5.1.3">
+<h3><span class="header-section-number">5.1.3</span> 3-Artefactos</h3>
+<ol style="list-style-type: decimal">
+<li><strong>Product Backlog:</strong> Responsable de Product Owner</li>
+<li><strong>Spring Backlog:</strong> Responsable de Equipo de desarrollo</li>
+<li><strong>Incremento:</strong> Algo potencialmente liberable</li>
+</ol>
 
+</div>
 </div>
 </div>
             </section>
@@ -306,8 +351,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           </div>
         </div>
       </div>
-<a href="index.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
-<a href="fundamentos-scrum.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+<a href="kanban.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="demo-pi.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
@@ -338,7 +383,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/rstudio/bookdown-demo/edit/master/01-fundamentos-agilidad.Rmd",
+"link": "https://github.com/rstudio/bookdown-demo/edit/master/04-product-owner.Rmd",
 "text": "Edit"
 },
 "history": {

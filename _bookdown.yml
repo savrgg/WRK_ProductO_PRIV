@@ -1,6 +1,17 @@
-book_filename: "bookdown-demo"
+book_filename: "Diplomado - PO"
 language:
+  label:
+    fig: "FIGURA "
+    tab: "TABLA "
   ui:
-    chapter_name: "Chapter "
+    chapter_name: "CAPITULO "
 delete_merged_file: true
+rmd_files:
+  [ "index.Rmd",
 
+    "01-fundamentos-agilidad.Rmd",
+    "02-fundamentos-scrum.Rmd",
+    "03-kanban.Rmd",
+    "04-product-owner.Rmd",
+    "05-Demo-and-PI.Rmd"
+  ]
